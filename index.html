@@ -3,123 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LIC Life Insurance Services | LIC जीवन बीमा सेवाएं</title>
-    <meta name="description" content="Secure your future with LIC Life Insurance. Trusted agent Jeevan Prajapati.">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    
-    <style>
-        /* --- GLOBAL STYLES --- */
-        body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; background-color: #f4f8fb; color: #333; }
-        
-        /* HEADER */
-        header { background: #005f9e; padding: 10px 0; color: white; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
-        .container { width: 90%; max-width: 1200px; margin: auto; display: flex; justify-content: space-between; align-items: center; }
-        
-        /* LOGO DESIGN */
-        .logo-container { display: flex; align-items: center; gap: 10px; }
-        .logo-img { height: 50px; width: 50px; border-radius: 50%; border: 2px solid white; object-fit: cover; }
-        .site-title { font-size: 1.2rem; margin: 0; }
-
-        /* NAV MENU */
-        nav ul { list-style: none; display: flex; gap: 20px; padding: 0; margin: 0; align-items: center; }
-        nav a { color: white; text-decoration: none; font-weight: 500; font-size: 14px; }
-        nav a:hover { text-decoration: underline; }
-        
-        /* LANGUAGE BUTTON */
-        .lang-toggle { cursor: pointer; padding: 5px 10px; border: none; background: #f5a623; color: white; font-weight: bold; border-radius: 4px; font-size: 12px; }
-        .lang-toggle:hover { background: #d48806; }
-
-        /* SECTIONS */
-        section { padding: 50px 20px; text-align: center; }
-        .hero { background: #e3f2fd; padding: 80px 20px; }
-        .hero h2 { color: #005f9e; font-size: 2rem; }
-
-        /* ABOUT SECTION */
-        #about { background: white; }
-        .about-content p { max-width: 800px; margin: 10px auto; line-height: 1.6; color: #555; }
-
-        /* PLANS GRID */
-        .plans-grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 30px; }
-        .plan { 
-            background: white; 
-            padding: 25px; 
-            width: 280px; 
-            border-radius: 10px; 
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
-            text-align: center;
-            transition: 0.3s;
-            border-top: 5px solid #005f9e;
-        }
-        .plan:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.15); }
-        .plan h3 { color: #005f9e; margin-bottom: 10px; }
-        
-        /* VIEW BUTTON */
-        .view-btn {
-            background-color: #005f9e;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            margin-top: 15px;
-            border-radius: 20px;
-            cursor: pointer;
-            font-weight: bold;
-            transition: 0.3s;
-            width: 100%;
-        }
-        .view-btn:hover { background-color: #004070; }
-
-        /* CONTACT SECTION */
-        #contact { background: #002e4d; color: white; }
-        .contact-details { margin-top: 20px; font-size: 16px; line-height: 1.8; }
-        .contact-details a { color: #f5a623; text-decoration: none; }
-        .contact-details strong { color: #ccc; }
-
-        /* FOOTER */
-        footer { background: #001f33; color: #aaa; padding: 20px 0; text-align: center; font-size: 14px; }
-
-        /* --- FULL SCREEN MODAL (POPUP) CSS --- */
-        .modal-overlay {
-            display: none; 
-            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            background-color: rgba(0, 0, 0, 0.85); z-index: 1000; overflow-y: auto;
-            animation: fadeIn 0.3s;
-        }
-        .modal-content {
-            background-color: white; margin: 5% auto; width: 90%; max-width: 700px;
-            border-radius: 10px; overflow: hidden; position: relative;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
-        }
-        .modal-header-img { width: 100%; height: 250px; object-fit: cover; background-color: #ddd; }
-        .modal-body { padding: 30px; text-align: left; }
-        .modal-body h2 { color: #005f9e; margin-top: 0; }
-        .modal-body ul { padding-left: 20px; color: #555; }
-        .modal-body li { margin-bottom: 8px; }
-        
-        .close-btn {
-            position: absolute; top: 15px; right: 20px; color: white;
-            font-size: 30px; font-weight: bold; cursor: pointer;
-            background: rgba(0,0,0,0.5); padding: 5px 12px; border-radius: 50%;
-        }
-        .close-btn:hover { background: red; }
-        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-
-    </style>
+    <title>LIC Life Insurance Services | Jeevan Prajapati</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
         <div class="container">
             <div class="logo-container">
-                <img src="logo.jpg" alt="LIC Logo" class="logo-img">
-                <h1 class="site-title lang" data-en="LIC Insurance Services" data-hi="LIC बीमा सेवाएं">LIC Insurance Services</h1>
+                <img src="https://upload.wikimedia.org/wikipedia/en/8/84/LIC_Logo.svg" alt="LIC Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1 class="lang" data-en="LIC Insurance Services" data-hi="LIC बीमा सेवाएं">LIC Insurance Services</h1>
+                    <span class="agent-name">Agent: Jeevan Prajapati</span>
+                </div>
             </div>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
                     <li><a href="#plans">Plans</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><button id="lang-toggle" class="lang-toggle">English / हिंदी</button></li>
+                    <li><button id="lang-toggle" class="btn-lang">English / हिंदी</button></li>
                 </ul>
             </nav>
         </div>
@@ -128,61 +32,52 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h2 class="lang" data-en="Secure Your Future with LIC" data-hi="LIC के साथ अपने भविष्य को सुरक्षित करें"></h2>
-            <p class="lang" data-en="Trusted Life Insurance for Every Indian." data-hi="हर भारतीय के लिए भरोसेमंद जीवन बीमा।"></p>
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="container">
-            <h2 class="lang" data-en="About Us" data-hi="हमारे बारे में"></h2>
-            <div class="about-content">
-                <p class="lang" data-en="Agent Name: Jeevan Prajapati" data-hi="एजेंट का नाम: जीवन प्रजापति"></p>
-                <p class="lang" data-en="With over 5 years of experience in the LIC insurance sector, I am dedicated to providing reliable and personalized life insurance solutions." data-hi="LIC बीमा क्षेत्र में 5 वर्षों से अधिक अनुभव के साथ, मैं विश्वसनीय और व्यक्तिगत जीवन बीमा समाधान प्रदान करने के लिए समर्पित हूं।"></p>
-            </div>
+            <p class="lang" data-en="Trusted Life Insurance for Every Indian Family." data-hi="हर भारतीय परिवार के लिए भरोसेमंद जीवन बीमा।"></p>
+            <a href="#contact" class="btn btn-blue lang" data-en="Contact Me" data-hi="संपर्क करें">Contact Me</a>
         </div>
     </section>
 
     <section id="plans">
         <div class="container">
-            <h2 class="lang" data-en="Our Plans" data-hi="हमारे प्लान"></h2>
+            <h2 class="section-title lang" data-en="Our Best Plans" data-hi="हमारी सर्वश्रेष्ठ योजनाएं"></h2>
             <div class="plans-grid">
                 
-                <div class="plan">
+                <div class="plan-card">
                     <h3 class="lang" data-en="Life Insurance" data-hi="जीवन बीमा"></h3>
-                    <p class="lang" data-en="Comprehensive coverage for your family." data-hi="आपके परिवार की सुरक्षा के लिए व्यापक कवरेज।"></p>
-                    <button class="view-btn" onclick="openModal('life')">
+                    <p class="lang" data-en="Whole life coverage with guaranteed returns." data-hi="गारंटीड रिटर्न के साथ पूरे जीवन का कवरेज।"></p>
+                    <button class="btn btn-orange" onclick="openModal('life')">
                         <span class="lang" data-en="View Details" data-hi="विवरण देखें"></span>
                     </button>
                 </div>
 
-                <div class="plan">
+                <div class="plan-card">
                     <h3 class="lang" data-en="Health Insurance" data-hi="स्वास्थ्य बीमा"></h3>
-                    <p class="lang" data-en="Medical expense protection." data-hi="चिकित्सा खर्चों से बचाव करें।"></p>
-                    <button class="view-btn" onclick="openModal('health')">
+                    <p class="lang" data-en="Cover medical expenses and surgeries." data-hi="चिकित्सा खर्च और सर्जरी को कवर करें।"></p>
+                    <button class="btn btn-orange" onclick="openModal('health')">
                         <span class="lang" data-en="View Details" data-hi="विवरण देखें"></span>
                     </button>
                 </div>
 
-                <div class="plan">
+                <div class="plan-card">
                     <h3 class="lang" data-en="Pension Plans" data-hi="पेंशन प्लान"></h3>
-                    <p class="lang" data-en="Secure retirement income." data-hi="गारंटीशुदा पेंशन के साथ भविष्य सुरक्षित करें।"></p>
-                    <button class="view-btn" onclick="openModal('pension')">
+                    <p class="lang" data-en="Secure retirement with monthly income." data-hi="मासिक आय के साथ सेवानिवृत्ति सुरक्षित करें।"></p>
+                    <button class="btn btn-orange" onclick="openModal('pension')">
                         <span class="lang" data-en="View Details" data-hi="विवरण देखें"></span>
                     </button>
                 </div>
 
-                <div class="plan">
+                <div class="plan-card">
                     <h3 class="lang" data-en="Child Plans" data-hi="बच्चों के प्लान"></h3>
-                    <p class="lang" data-en="For child's education & marriage." data-hi="बच्चों की शिक्षा और शादी के लिए।"></p>
-                    <button class="view-btn" onclick="openModal('child')">
+                    <p class="lang" data-en="Secure your child's education & marriage." data-hi="अपने बच्चे की शिक्षा और शादी सुरक्षित करें।"></p>
+                    <button class="btn btn-orange" onclick="openModal('child')">
                         <span class="lang" data-en="View Details" data-hi="विवरण देखें"></span>
                     </button>
                 </div>
 
-                <div class="plan">
+                <div class="plan-card">
                     <h3 class="lang" data-en="Term Insurance" data-hi="टर्म बीमा"></h3>
-                    <p class="lang" data-en="High coverage, low premium." data-hi="कम प्रीमियम में ज्यादा कवरेज।"></p>
-                    <button class="view-btn" onclick="openModal('term')">
+                    <p class="lang" data-en="High coverage at low premium rates." data-hi="कम प्रीमियम दरों पर उच्च कवरेज।"></p>
+                    <button class="btn btn-orange" onclick="openModal('term')">
                         <span class="lang" data-en="View Details" data-hi="विवरण देखें"></span>
                     </button>
                 </div>
@@ -191,156 +86,47 @@
         </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="contact-section">
         <div class="container">
-            <h2 class="lang" data-en="Contact Us" data-hi="हमसे संपर्क करें"></h2>
-            <div class="contact-details">
-                <p><strong class="lang" data-en="Full Name:" data-hi="पूरा नाम:"></strong> Jeevan Prajapati</p>
-                <p><strong class="lang" data-en="Office Address:" data-hi="कार्यालय पता:"></strong> Nanded village, Makdon Tehsil, Ujjain District, Madhya Pradesh, PIN 456668</p>
-                <p><strong class="lang" data-en="Mobile Number:" data-hi="मोबाइल नंबर:"></strong> 7898839472</p>
-                <p><strong class="lang" data-en="WhatsApp:" data-hi="व्हाट्सएप:"></strong> <a href="https://wa.me/7898839472" style="color: #25D366;">7898839472 (Chat Now)</a></p>
-                <p><strong class="lang" data-en="Email:" data-hi="ईमेल:"></strong> <a href="mailto:jeevanprajapati841@gmail.com">jeevanprajapati841@gmail.com</a></p>
+            <h2 class="section-title lang" data-en="Contact Us" data-hi="हमसे संपर्क करें"></h2>
+            <div class="contact-box">
+                <p><strong>👤 Name:</strong> Jeevan Prajapati</p>
+                <p><strong>📍 Address:</strong> Nanded village, Makdon Tehsil, Ujjain District, MP, 456668</p>
+                <p><strong>📞 Mobile:</strong> <a href="tel:7898839472">7898839472</a></p>
+                <p><strong>📧 Email:</strong> <a href="mailto:jeevanprajapati841@gmail.com">jeevanprajapati841@gmail.com</a></p>
+                
+                <a href="https://wa.me/7898839472" class="btn btn-green">
+                    <span class="lang" data-en="Chat on WhatsApp" data-hi="व्हाट्सएप पर चैट करें"></span>
+                </a>
             </div>
         </div>
     </section>
 
     <footer>
-        <div class="container">
-            <p class="lang" data-en="© 2026 LIC Insurance Agent | Jeevan Prajapati" data-hi="© 2026 LIC बीमा एजेंट | जीवन प्रजापति"></p>
-        </div>
+        <p>© 2026 LIC Agent Jeevan Prajapati | All Rights Reserved.</p>
     </footer>
 
     <div id="fullScreenModal" class="modal-overlay">
+        <div class="close-btn" onclick="closeModal()">←</div>
+        
         <div class="modal-content">
-            <span class="close-btn" onclick="closeModal()">&times;</span>
             <img id="modalImg" class="modal-header-img" src="" alt="Plan Image">
             <div class="modal-body">
                 <h2 id="modalTitle">Plan Title</h2>
                 <hr>
-                <p id="modalDesc">Description goes here...</p>
+                <p id="modalDesc">Description...</p>
                 <h4><span class="lang" data-en="Key Benefits:" data-hi="मुख्य लाभ:">Key Benefits:</span></h4>
                 <ul id="modalFeatures"></ul>
-                <button onclick="closeModal()" style="background: #333; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 5px; margin-top: 10px;">Close / बंद करें</button>
+                
+                <button onclick="closeModal()" class="btn btn-red" style="margin-top:20px;">
+                    <span class="lang" data-en="Close Details" data-hi="बंद करें"></span>
+                </button>
             </div>
         </div>
     </div>
 
-    <script>
-        const planData = {
-            'life': {
-                img: "https://images.unsplash.com/photo-1516733968668-dbdce39c4651?auto=format&fit=crop&w=800&q=80", 
-                title_en: "Jeevan Umang (Whole Life Assurance)",
-                desc_en: "This plan offers a combination of income and protection to your family. It provides annual survival benefits from the end of the premium paying term till maturity.",
-                features_en: ["Lifetime Coverage (100 Years)", "Guaranteed 8% Return per year", "Lump sum amount at maturity", "Loan facility available"],
-                
-                title_hi: "जीवन उमंग (संपूर्ण जीवन बीमा)",
-                desc_hi: "यह योजना आपके परिवार को आय और सुरक्षा का संयोजन प्रदान करती है। यह प्रीमियम भुगतान अवधि के अंत से परिपक्वता तक वार्षिक लाभ प्रदान करता है।",
-                features_hi: ["आजीवन कवरेज (100 वर्ष)", "हर साल 8% गारंटीड रिटर्न", "परिपक्वता पर एकमुश्त राशि", "ऋण सुविधा उपलब्ध"]
-            },
-            'health': {
-                img: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&q=80",
-                title_en: "LIC Cancer Cover & Health Plus",
-                desc_en: "A comprehensive health insurance plan that covers major surgeries, hospitalization costs, and fixed benefits for critical illnesses.",
-                features_en: ["Fixed benefit health plan", "Covers 50 types of surgeries", "Hospital Cash Benefit", "Premium waiver benefit"],
-
-                title_hi: "LIC कैंसर कवर और हेल्थ प्लस",
-                desc_hi: "एक व्यापक स्वास्थ्य बीमा योजना जो बड़ी सर्जरी, अस्पताल के खर्च और गंभीर बीमारियों के लिए निश्चित लाभ कवर करती है।",
-                features_hi: ["निश्चित लाभ स्वास्थ्य योजना", "50 प्रकार की सर्जरी कवर", "अस्पताल नकद लाभ", "प्रीमियम माफी लाभ"]
-            },
-            'pension': {
-                img: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&w=800&q=80",
-                title_en: "Jeevan Shanti (Pension Plan)",
-                desc_en: "A single premium plan wherein the policyholder has an option to choose an Immediate or Deferred annuity.",
-                features_en: ["One-time Investment", "Guaranteed Income for Life", "Option for Joint Life Annuity", "Tax Benefits"],
-
-                title_hi: "जीवन शांति (पेंशन योजना)",
-                desc_hi: "एक सिंगल प्रीमियम योजना जिसमें पॉलिसीधारक के पास तत्काल या स्थगित वार्षिकी चुनने का विकल्प होता है।",
-                features_hi: ["एक बार निवेश", "जीवन भर गारंटीड आय", "संयुक्त जीवन वार्षिकी का विकल्प", "कर लाभ"]
-            },
-            'child': {
-                img: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=800&q=80",
-                title_en: "Children's Money Back Plan",
-                desc_en: "Ideally designed to meet the educational, marriage, and other needs of growing children through survival benefits.",
-                features_en: ["Survival Benefits at 18, 20, 22 years", "Maturity benefit at 25 years", "Premium Waiver Rider available"],
-
-                title_hi: "बच्चों का मनी बैक प्लान",
-                desc_hi: "बढ़ते बच्चों की शिक्षा, विवाह और अन्य जरूरतों को पूरा करने के लिए आदर्श रूप से डिज़ाइन किया गया।",
-                features_hi: ["18, 20, 22 साल पर सर्वाइवल बेनिफिट", "25 साल पर परिपक्वता लाभ", "प्रीमियम माफी राइडर उपलब्ध"]
-            },
-            'term': {
-                img: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=800&q=80",
-                title_en: "Jeevan Amar (Term Assurance)",
-                desc_en: "A pure protection plan that provides a high sum assured at very affordable premiums. It secures your family financially in your absence.",
-                features_en: ["High Life Cover at Low Cost", "Flexibility to choose Policy Term", "Death Benefit Only", "Special rates for women"],
-
-                title_hi: "जीवन अमर (टर्म इंश्योरेंस)",
-                desc_hi: "एक शुद्ध सुरक्षा योजना जो बहुत ही किफायती प्रीमियम पर उच्च बीमित राशि प्रदान करती है।",
-                features_hi: ["कम लागत पर उच्च जीवन कवर", "पॉलिसी अवधि चुनने की लचीलापन", "केवल मृत्यु लाभ", "महिलाओं के लिए विशेष दरें"]
-            }
-        };
-
-        let currentLang = 'en';
-
-        // Update Language Function
-        function updateLanguage(lang) {
-            currentLang = lang;
-            document.querySelectorAll('.lang').forEach(el => {
-                if (el.getAttribute('data-' + lang)) {
-                    el.textContent = el.getAttribute('data-' + lang);
-                }
-            });
-            document.getElementById('lang-toggle').textContent = lang === 'en' ? 'English / हिंदी' : 'हिंदी / English';
-        }
-
-        document.getElementById('lang-toggle').addEventListener('click', () => {
-            const newLang = currentLang === 'en' ? 'hi' : 'en';
-            updateLanguage(newLang);
-        });
-
-        updateLanguage('en');
-
-        // Modal Logic
-        const modal = document.getElementById('fullScreenModal');
-        const mImg = document.getElementById('modalImg');
-        const mTitle = document.getElementById('modalTitle');
-        const mDesc = document.getElementById('modalDesc');
-        const mList = document.getElementById('modalFeatures');
-
-        function openModal(planKey) {
-            const data = planData[planKey];
-            mImg.src = data.img;
-
-            if (currentLang === 'en') {
-                mTitle.textContent = data.title_en;
-                mDesc.textContent = data.desc_en;
-                updateList(data.features_en);
-            } else {
-                mTitle.textContent = data.title_hi;
-                mDesc.textContent = data.desc_hi;
-                updateList(data.features_hi);
-            }
-            modal.style.display = 'block';
-            document.body.style.overflow = 'hidden';
-        }
-
-        function updateList(features) {
-            mList.innerHTML = "";
-            features.forEach(item => {
-                const li = document.createElement('li');
-                li.textContent = item;
-                mList.appendChild(li);
-            });
-        }
-
-        function closeModal() {
-            modal.style.display = 'none';
-            document.body.style.overflow = 'auto';
-        }
-
-        window.onclick = function(event) {
-            if (event.target == modal) closeModal();
-        }
-    </script>
+    <script src="script.js"></script>
 
 </body>
 </html>
+
