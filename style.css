@@ -1,40 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f0f4f8; /* Thoda soft blue-grey background */
-}
-.plan {
-    background: white;
-    border-radius: 12px;
-    border-top: 5px solid #ffb900; /* LIC Yellow Line on top */
-    transition: all 0.3s ease-in-out; /* Smooth movement */
-    position: relative;
-    overflow: hidden;
-}
-
-.plan:hover {
-    transform: translateY(-10px); /* Upar uthne ka effect */
-    box-shadow: 0 20px 40px rgba(0, 95, 158, 0.2); /* Blue shadow */
-    border-top: 5px solid #005f9e; /* Hover karne par line Blue ho jayegi */
-}
-.view-btn {
-    background: linear-gradient(135deg, #005f9e, #004070); /* Blue Gradient */
-    color: white;
-    padding: 12px 25px;
-    border-radius: 50px; /* Capsule shape */
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    box-shadow: 0 4px 15px rgba(0, 95, 158, 0.3);
-    border: none;
-    transition: 0.3s;
-}
-
-.view-btn:hover {
-    background: linear-gradient(135deg, #f5a623, #d48806); /* Yellow/Orange on Hover */
-    transform: scale(1.05); /* Thoda bada hoga */
-    box-shadow: 0 6px 20px rgba(245, 166, 35, 0.4);
-}
 header {
     background: #005f9e; /* LIC Deep Blue */
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -59,4 +22,35 @@ nav a::after {
 
 nav a:hover::after {
     width: 100%;
+}
+.view-btn {
+    background: linear-gradient(135deg, #005f9e, #004070); /* Blue Gradient */
+    color: white;
+    padding: 12px 25px;
+    border-radius: 50px; /* Capsule shape */
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 15px rgba(0, 95, 158, 0.3);
+    border: none;
+    transition: 0.3s;
+}
+
+.view-btn:hover {
+    background: linear-gradient(135deg, #f5a623, #d48806); /* Yellow/Orange on Hover */
+    transform: scale(1.05); /* Thoda bada hoga */
+    box-shadow: 0 6px 20px rgba(245, 166, 35, 0.4);
+}
+.plan {
+    background: white;
+    border-radius: 12px;
+    border-top: 5px solid #ffb900; /* LIC Yellow Line on top */
+    transition: all 0.3s ease-in-out; /* Smooth movement */
+    position: relative;
+    overflow: hidden;
+}
+
+.plan:hover {
+    transform: translateY(-10px); /* Upar uthne ka effect */
+    box-shadow: 0 20px 40px rgba(0, 95, 158, 0.2); /* Blue shadow */
+    border-top: 5px solid #005f9e; /* Hover karne par line Blue ho jayegi */
 }
