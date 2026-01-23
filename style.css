@@ -19,8 +19,8 @@ header {
 }
 
 .container {
-    width: 90%;
-    max-width: 1200px;
+    width: 500%;
+    max-width: 700px;
     margin: auto;
     display: flex;
     justify-content: space-between;
